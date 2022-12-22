@@ -1,0 +1,37 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.grid {
+  width: 400px;
+  height: 600px;
+  background-image: url("background.png");
+  position: relative;
+  font-size: 100px;
+  text-align: center;
+}
+
+.man {
+  width: 87px;
+  height: 85px;
+  background-image: url("jumping\ man-.png");
+  position: absolute;
+}
+
+.platform {
+  width: 85px;
+  height: 15px;
+  background-image: url("platform.png");
+  position: absolute;
+}
